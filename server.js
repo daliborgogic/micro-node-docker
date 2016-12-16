@@ -1,7 +1,7 @@
 'use strict'
 
 // Constants
-const PORT = 3000
+const PORT = 8080
 
 // App
 const app = require('express')();
@@ -13,4 +13,3 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Running on http://localhost:${PORT}`)
 })
-
